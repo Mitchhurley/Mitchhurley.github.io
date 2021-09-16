@@ -1,13 +1,19 @@
 body {
     color: #800020;    /* Dark gray */
     background-color: #fffdd0;
-    
-  }
+}
   
 h1 {
     font-size: 2em;
+    text-align: center;
   }
   
-  h2 {
+h2 {
     font-size: 1.6em;
   }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Helvetica", "Arial", sans-serif;
+  }
+ul {
+    list-style-type:lower-greek;
+}
