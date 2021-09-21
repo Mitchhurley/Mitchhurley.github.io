@@ -1,11 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
     color: #800020;    /* Dark gray */
     background-color: #fffdd0;
-    border-left: burlywood;
+    padding-left: 5pt;
+    
+    
 }
   
 h1 {
     font-size: 2em;
+    text-decoration: darkseagreen;
     text-align: center;
   }
   
@@ -17,5 +25,9 @@ h2 {
     font-family: "Helvetica", "Arial", sans-serif;
   }
 ul {
-    list-style-type:lower-greek;
+    list-style-type:lower-alpha;
+}
+p {
+  font-size: 10pt;
+  font-family: "Helvetica", "Arial", sans-serif;
 }
