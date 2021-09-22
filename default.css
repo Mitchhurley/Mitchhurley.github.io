@@ -10,8 +10,14 @@ img{
 }
 h1 {
     font-size: 2em;
-    text-decoration: darkseagreen;
     text-align: center;
+}
+h2{
+    font-size: 1.25em;
+    text-align: center;
+}
+h3{
+
 }
 p {
   font-size: 10pt;
