@@ -1,33 +1,29 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
+
 body {
-    color: #800020;    /* Dark gray */
+    color: #800020;    
     background-color: #fffdd0;
-    padding-left: 5pt;
-    
-    
+   
 }
-  
+img{
+  border: 20px solid blue ; 
+}
 h1 {
     font-size: 2em;
     text-decoration: darkseagreen;
     text-align: center;
-  }
-  
-h2 {
-    font-size: 1.6em;
-    /* find swoopy looking font*/font-family: "Papyrus"
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Helvetica", "Arial", sans-serif;
-  }
-ul {
-    list-style-type:lower-alpha;
 }
 p {
   font-size: 10pt;
   font-family: "Helvetica", "Arial", sans-serif;
+  
+  
 }
+.text{
+  display: flex;
+}
+.content{
+  flex: 50%;
+  padding: auto;
+}
+
